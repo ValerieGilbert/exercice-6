@@ -37,8 +37,6 @@ cite,
 code,
 del,
 dfn,
-em,
-img,
 ins,
 kbd,
 q,
@@ -152,7 +150,7 @@ html {
 }
 
 .bg {
-  background-image: url("/assets/img/skyworks_bg.jpg");
+  background-image: url("../img/skyworks_bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -211,8 +209,8 @@ a:hover {
   height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
-  -webkit-perspective: 1px;
-  -ms-perspective: 1px;
+  perspective: 1px;
+  perspective: 1px;
   perspective: 1px;
 }
 
@@ -220,9 +218,9 @@ a:hover {
   position: relative;
   height: 100vh;
   overflow-scrolling: touch;
-  -webkit-overflow-scrolling: touch;
-  -webkit-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
+  overflow-scrolling: touch;
+  transform-style: preserve-3d;
+  transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 
@@ -239,56 +237,56 @@ a:hover {
 }
 
 .parallax__layer--base {
-  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
   height: 100%;
   z-index: -2;
 }
 
 .parallax__layer--rocks {
-  -webkit-transform: translateZ(-1px) scale(2);
-  -ms-transform: translateZ(-1px) scale(2);
   transform: translateZ(-1px) scale(2);
-  background-image: url("/assets/img/mounts_1.png");
+  transform: translateZ(-1px) scale(2);
+  transform: translateZ(-1px) scale(2);
+  background-image: url("../img/mounts_1.png");
   margin-top: 78%;
   z-index: -3;
 }
 
 .parallax__layer--river {
   position: fixed;
-  -webkit-transform: translateZ(-2px) scale(3);
-  -ms-transform: translateZ(-2px) scale(3);
   transform: translateZ(-2px) scale(3);
-  background-image: url("/assets/img/mounts_2.png");
+  transform: translateZ(-2px) scale(3);
+  transform: translateZ(-2px) scale(3);
+  background-image: url("../img/mounts_2.png");
   margin-top: 95%;
   z-index: -4;
 }
 
 .parallax__layer--back {
   position: fixed;
-  -webkit-transform: translateZ(-3px) scale(4);
-  -ms-transform: translateZ(-3px) scale(4);
   transform: translateZ(-3px) scale(4);
-  background-image: url("/assets/img/mounts_3.png");
+  transform: translateZ(-3px) scale(4);
+  transform: translateZ(-3px) scale(4);
+  background-image: url("../img/mounts_3.png");
   margin-top: 130%;
   z-index: -5;
 }
 
 .parallax__layer--deep {
   position: fixed;
-  -webkit-transform: translateZ(-4px) scale(5);
-  -ms-transform: translateZ(-4px) scale(5);
   transform: translateZ(-4px) scale(5);
-  background-image: url("/assets/img/mounts_4.png");
+  transform: translateZ(-4px) scale(5);
+  transform: translateZ(-4px) scale(5);
+  background-image: url("../img/mounts_4.png");
   margin-top: 145%;
   z-index: -6;
 }
 
 .parallax__layer--drone-a {
   position: fixed;
-  -webkit-transform: translateZ(0) scale(1);
-  -ms-transform: translateZ(0) scale(1);
   transform: translateZ(0) scale(1);
-  background-image: url("/assets/img/drone_a.png");
+  transform: translateZ(0) scale(1);
+  transform: translateZ(0) scale(1);
+  background-image: url("../img/drone_a.png");
   width: 38vw;
   margin-top: 13%;
   z-index: -7;
@@ -296,10 +294,10 @@ a:hover {
 
 .parallax__layer--drone-b {
   position: fixed;
-  -webkit-transform: translateZ(-3px) scale(4);
-  -ms-transform: translateZ(-3px) scale(4);
   transform: translateZ(-3px) scale(4);
-  background-image: url("/assets/img/drone_b.png");
+  transform: translateZ(-3px) scale(4);
+  transform: translateZ(-3px) scale(4);
+  background-image: url("../img/drone_b.png");
   margin: auto;
   margin-top: 13%;
   right: 0px;
@@ -310,10 +308,10 @@ a:hover {
 
 .parallax__layer--logo {
   position: fixed;
-  -webkit-transform: translateZ(-3px) scale(4);
-  -ms-transform: translateZ(-3px) scale(4);
   transform: translateZ(-3px) scale(4);
-  background-image: url("/assets/img/logo.png");
+  transform: translateZ(-3px) scale(4);
+  transform: translateZ(-3px) scale(4);
+  background-image: url("../img/logo.svg");
   right: 0px;
   width: 30vw;
   margin: auto;
@@ -330,10 +328,10 @@ a:hover {
 
 .parallax__layer--bg {
   position: fixed;
-  -webkit-transform: translateZ(-5px) scale(6);
-  -ms-transform: translateZ(-5px) scale(6);
   transform: translateZ(-5px) scale(6);
-  background-image: url("/assets/img/monBg.svg");
+  transform: translateZ(-5px) scale(6);
+  transform: translateZ(-5px) scale(6);
+  background-image: url("../img/monBg.svg");
   background-size: 100%;
   height: 100vh;
   z-index: -10;
@@ -376,8 +374,8 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
